@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Log files
+*.log
+server.log
+
+# Cookies (can contain sensitive auth info)
+cookies/
+
+# Temporary files and folders
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python egg metadata
+*.egg-info/
+dist/
+build/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Compiled files from C extensions
+*.so
+
+# Temp output from yt-dlp or ffmpeg
+*.part
+*.m4a
+*.webm
+*.ytdl
+*.aria2

@@ -26,7 +26,7 @@ Make sure the following tools are installed on your system:
 
 Install Linux packages dependencies:
 ```bash
-apt install aria2
+apt install aria2 ffmpeg
 ```
 
 Install Python dependencies:
@@ -34,3 +34,10 @@ Install Python dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
+## 🧪 Client
+
+To test the server locally, you can use the following `curl` command from a terminal:
+
+```bash
+curl -L "http://localhost:8080/download?videoId=dQw4w9WgXcQ" --output rickroll.mp3
